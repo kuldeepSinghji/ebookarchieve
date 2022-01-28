@@ -2,7 +2,7 @@ import React, { useContext, useState,useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import BookContext from './Context/context'
 import logout from "./logout.png"
-import "./navBook.css"
+import "./navBook.css" 
 import { useLocation } from 'react-router-dom'
 export default function NavBook() {
     const {setBlogDetails,blogs,searchClick,fetchblogs,fetchbooks} = useContext(BookContext)
