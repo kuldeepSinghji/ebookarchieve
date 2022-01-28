@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ebookarchieve/static/css/main.56ede350.css",
+    "main.js": "/ebookarchieve/static/js/main.388edd1a.js",
+    "static/js/787.f63a6138.chunk.js": "/ebookarchieve/static/js/787.f63a6138.chunk.js",
+    "static/media/backg.jpeg": "/ebookarchieve/static/media/backg.d3315924a0f92e3ec54a.jpeg",
+    "static/media/blog1.jpg": "/ebookarchieve/static/media/blog1.5af69376eaf281755f44.jpg",
+    "static/media/insta.webp": "/ebookarchieve/static/media/insta.aa133b4a17658685f620.webp",
+    "static/media/Login.png": "/ebookarchieve/static/media/Login.c8c84920bf459c15ee55.png",
+    "static/media/avengers.jpg": "/ebookarchieve/static/media/avengers.e57b4172b00fe79806b9.jpg",
+    "static/media/1c.png": "/ebookarchieve/static/media/1c.81678386e5fb0044e3ab.png",
+    "static/media/bloglogo1.jpg": "/ebookarchieve/static/media/bloglogo1.d078b2fc4d1037af6ca7.jpg",
+    "static/media/1w.png": "/ebookarchieve/static/media/1w.ebe37bcc9ed73d05f2fa.png",
+    "static/media/logout.png": "/ebookarchieve/static/media/logout.0ce150a3f949bdc7eebc.png",
+    "static/media/load.gif": "/ebookarchieve/static/media/load.a2733804961baa090833.gif",
+    "index.html": "/ebookarchieve/index.html",
+    "main.56ede350.css.map": "/ebookarchieve/static/css/main.56ede350.css.map",
+    "main.388edd1a.js.map": "/ebookarchieve/static/js/main.388edd1a.js.map",
+    "787.f63a6138.chunk.js.map": "/ebookarchieve/static/js/787.f63a6138.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56ede350.css",
+    "static/js/main.388edd1a.js"
+  ]
+}
