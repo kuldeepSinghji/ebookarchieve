@@ -1,0 +1,10 @@
+.MainSectionContainer{
+    /* border: 2px solid red; */
+    background-color: #004AAd;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}

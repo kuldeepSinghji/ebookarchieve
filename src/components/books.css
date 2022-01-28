@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bookMainContainer{
+    display: inline-block;
+    /* border: 1px solid greenyellow; */
+    width: 78%;
+}
+.bookContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid gold; */
+}
+.bookHeading{
+    font-size: 30px;
+    /* border-bottom: 6px solid gold; */
+    text-decoration: underline;
+    padding: 2px 10px;
+    color: gold;
+    text-shadow: 0px 0px 10px black;
+}
+.allBookField{
+    /* border: 2px solid white; */
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}

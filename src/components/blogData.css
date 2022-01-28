@@ -1,0 +1,31 @@
+.titleBlogContainer{
+    border: 2px solid black;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+.titleBox h3{
+    border-bottom: 2px solid black;
+    /* width: 100%; */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.blogCategoryBox{
+    /* border: 2px solid red; */
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+}
+.blogDataImgBox{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    /* margin: auto; */
+    /* width:90%; */
+    padding: 10px 0px;
+}
+.blogDataImgBox img{
+    width: 100%;
+    border-radius: 10px;
+}

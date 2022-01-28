@@ -1,18 +1,11 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect,useRef} from 'react'
 import NavBook from './NavBook'
 import "./bookDetails.css"
 // import logo from "./logo.png"
 import BookContext from './Context/context'
-import { useLocation } from 'react-router-dom'
 // import {Link} from "react-router-dom"
 export default function BookDetails() {
-        const {booksDetails,setBooksDetails} = useContext(BookContext)
-        const location = useLocation();
-        if(location.pathname === "/bookDetails/"){
-            
-        }
-        console.log(booksDetails[0].name,"ram")
-        
+        const {booksDetails,setBooksDetails,blogs} = useContext(BookContext)    
     return (
         <>
          <NavBook/>
@@ -23,7 +16,7 @@ export default function BookDetails() {
                  </div>
                  <div className="downloadBox">
                    {/* <a href={booksDetails[0].bookfile}><button>DOWNLOAD</button></a>  */}
-                   <a href='/'><button>DOWNLOAD</button></a> 
+                   <a href='/bookDetails/'><button>DOWNLOAD</button></a> 
                  </div>
              </div>
              <div className="bookDetailsContainer">

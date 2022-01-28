@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.nav{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 10px;
+    background-color: #004AAd;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+.logoutContainer img{
+    /* border: 2px solid gold; */
+    height:50px;
+    width: 50px;
+    background-color: #004AAd;
+    
+}
+.mainLogoContainer{
+    /* border: 1px solid black; */
+    letter-spacing: 1px;
+    color: white;
+}
+.mainLogoContainer small{
+    /* border: 1px solid black; */
+    display: block;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0px 0px 4px black;
+}
+.bookLink{
+    /* border: 1px solid red; */
+    font-size: 35px;
+}
+.bLink{
+    text-decoration:none;
+    color:gold;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px black;
+}
+.blogLink{
+    /* border: 1px solid red; */
+    font-size: 35px;
+}
+.blLink{
+    text-decoration:none;
+    color: gold;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px black;
+}
+.searchContainer input{
+    padding: 5px 10px;
+    font-weight: 600;
+    background-color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}

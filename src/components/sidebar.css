@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sideBarMain{
+    display: inline-block;
+    width: 20%;
+    background-color: #ccc;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 40%;
+    position: sticky;
+    top: 100px;
+}
+.sideBarContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ccc;
+    border-radius: 10px;
+    /* max-height: 80%; */
+    /* height: 82vh; */
+}
+.headingDiv h3{
+    /* border: 2px solid black; */
+    background-color: #ccc;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+.category{
+    /* border:2px solid black; */
+    /* border-radius: 10px; */
+    background-color: #ccc;
+}
+.category button{
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ccc;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.category button:hover{
+    transition: all;
+    transition-duration: .3s;
+    background-color: #004AAd;
+    color: white;
+}
